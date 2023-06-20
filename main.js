@@ -5,7 +5,6 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 //Creating a scene
 const scene = new THREE.Scene();
-console.log('test');
 
 //Creating a sphere
 const sunTexture = new THREE.TextureLoader().load('sun.jpg');
